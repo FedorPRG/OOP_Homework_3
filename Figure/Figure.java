@@ -1,9 +1,7 @@
 package Figure;
-public abstract class Figure {
+public abstract class Figure implements Iface {
     protected double width;
     protected double height;
 
-    public double getArea() {
-        return width * height;
-    }
+    
 }
